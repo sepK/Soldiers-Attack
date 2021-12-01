@@ -1,0 +1,4 @@
+# Project exclude paths
+/Soldiers-Attack-Config-Center/target/
+/Soldiers-Attack-Register-Center/target/
+/Soldiers-Attack-Utils/target/
