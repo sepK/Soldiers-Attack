@@ -24,11 +24,10 @@ import java.util.function.Consumer;
 
 /**
  * Description: Redis工具类
- * <br/>
  * RedisUtil
  *
- * @author laiql
- * @date 2021/3/25 10:35 上午
+ * @author tk
+ * @date 2021/12/1 16:59
  */
 @Component
 public class RedisUtil {
