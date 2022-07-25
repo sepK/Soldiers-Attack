@@ -1,4 +1,40 @@
-# Project exclude paths
-/Soldiers-Attack-Config-Center/target/
-/Soldiers-Attack-Register-Center/target/
-/Soldiers-Attack-Utils/target/
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+/socialhub-solution.iml
+/customer-events-service/src/test/java/com/haagendazs/socialhub/service/SmsTemplateEngineServiceTest.java
+
+logs/
+
+tier.json
+tierRule.json
+customer-events-service/CN_VAN_ARTICLE_YOHO_2018290931030.txt
+customer-events-service/SDB_Store_Master_20210325_000101_Instore测试修改.csv

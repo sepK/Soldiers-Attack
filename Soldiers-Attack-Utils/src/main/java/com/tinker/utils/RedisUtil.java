@@ -239,7 +239,7 @@ public class RedisUtil {
      * @param expireTime 等待时间，锁的过期时间，单位<font size=8 color="red">毫秒</font>
      * @return callable 返回的可空数据 Optional<T>
      */
-    public <T> Optional<T> lockfor(Callable<T> callable, Consumer<Exception> error, String key, long expireTime) {
+    public <T> Optional<T> lockFor(Callable<T> callable, Consumer<Exception> error, String key, long expireTime) {
         boolean isLock = true;
         String requestId = UUID.randomUUID().toString();
         long waitTime = 500;
@@ -279,8 +279,8 @@ public class RedisUtil {
      * @param expireTime 等待时间，锁的过期时间，单位<font size=8 color="red">毫秒</font>
      * @return callable 返回的可空数据 Optional<T>
      */
-    public <T> Optional<T> lockfor(Callable<T> callable, String key, long expireTime) {
-        return lockfor(callable, null, key, expireTime);
+    public <T> Optional<T> lockFor(Callable<T> callable, String key, long expireTime) {
+        return lockFor(callable, null, key, expireTime);
 
     }
 }
